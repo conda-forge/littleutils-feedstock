@@ -1,5 +1,5 @@
 {% set name = "littleutils" %}
-{% set version = "0.2.2" %}
+{% set version = "0.2.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: e6cae3a4203e530d51c9667ed310ffe3b1948f2876e3d69605b3de4b7d96916f
+  sha256: c7835b01020ced42e291118b7d78fb16bc2d9a1b4f3f42f3cb3787bb4da53d19
 
 build:
   noarch: python
